@@ -1,0 +1,16 @@
+{
+  "name": "graceful-shutdown-node-mini",
+  "version": "1.0.0",
+  "description": "Encerramento gracioso em Node.js: readiness, drenagem HTTP com prazo e worker que devolve o job para a fila.",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=19"
+  },
+  "license": "MIT",
+  "author": "João Victor Souza"
+}
